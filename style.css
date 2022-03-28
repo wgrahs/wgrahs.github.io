@@ -1,1 +1,22 @@
+body {
+  background: #59344F;
+  color: #D6BA73;
+  font-family: Ariel, Helvetica, sans-serif;
+  margin: 10% 20%;
+}
 
+.exp-header {
+  text-transform: uppercase;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  text-align: center;
+  background-color: #857E7B
+}
+
+.edu-header {
+  text-transform: uppercase;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  text-align: center;
+  background-color: #857E7B
+}
