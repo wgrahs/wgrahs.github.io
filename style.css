@@ -1,26 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Nunito', sans-serif;
+}
+
 body {
-  background: #59344F;
-  color: #D6BA73;
-  font-family: Ariel, Helvetica, sans-serif;
-  margin: 10% 20%;
+  background: #94D9EA;
+}
+
+.main-content {
+  min-height: 100vh;
+  width: 80%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.left-section {
+  grid-column: span 2;
+  height: 100%;
+  background-color: #00324A;
+}
+
+.right-section {
+  grid-column: span 5;
+  background-color: #f7f7f7;
+  height: 100%;
+}
+
+.left-content {
+  padding: 1rem 4rem;
+}
+
+.profile {
+  width: 100%;
+  border-bottom: 1px solid #002333;
+}
+
+.profile img {
+  width: 100%;
+  border-radius: 50%;
+  border: 8px solid #002333;
+  
+}
+
+.name {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1.5rem;
+}
+
+.career {
+  font-size: 1rem;
+  color: #94D9EA;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 1rem 
+}
+
+.main-title {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #f7f7f7;
+  padding-top: 3rem;
+  text-align: center;
+  
+}
+
+.contact-info ul {
+  padding: 2rem 0;
+}
+
+.contact-info ul li{
+  padding: .4rem 0;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.contact-info ul li i{
+  padding-right: 1rem;
+  font-size: 1.2rem;
+  color: #2D9CDB;
+}
+
+.right-section {
+  padding: 2rem;
 }
 
 .exp-header {
-  text-transform: uppercase;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
-  text-align: center;
-  background-color: #857E7B
+  font-size: 1.8rem;
+  border-bottom: solid #002333;
+  margin: 2rem;
 }
 
 .edu-header {
-  text-transform: uppercase;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
-  text-align: center;
-  background-color: #857E7B
+  margin: 2rem;
 }
 
-.info {
-  line-height: 2px;
+ul li {
+  list-style-type: circle;
+}
+
+.job {
+  margin: 2rem;
 }
